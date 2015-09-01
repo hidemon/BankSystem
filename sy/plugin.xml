@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         id="application"
+         point="org.eclipse.core.runtime.applications">
+      <application>
+         <run
+               class="sy.Application">
+         </run>
+      </application>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            name="RCP Perspective"
+            class="sy.Perspective"
+            id="sy.perspective">
+      </perspective>
+   </extension>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            class="view.view1"
+            id="view.view1"
+            name="存款管理员系统">
+      </view>
+      <view
+            class="view.ViewLoan"
+            id="view.ViewLoan"
+            name="New ViewPart">
+      </view>
+      <view
+            class="view.ViewForeignEx"
+            id="view.ViewForeignEx"
+            name="New ViewPart">
+      </view>
+       <view
+            class="view.CreditCard"
+            id="view.CreditCard"
+            name="New ViewPart">
+      </view>
+      <view
+            class="view.manage"
+            id="view.manage"
+            name="New ViewPart">
+      </view>
+      
+      <view
+            class="view.manage_navi"
+            id="view.manage_navi"
+            name="New ViewPart">
+      </view>
+      <view
+            class="view.manage_depo"
+            id="view.manage_depo"
+            name="New ViewPart">
+      </view>
+      <view
+            class="view.Manage_credit"
+            id="view.Manage_credit"
+            name="New ViewPart">
+      </view>
+      <view
+            class="view.Manage_Loan"
+            id="view.Manage_Loan"
+            name="New ViewPart">
+      </view>
+      <view
+            class="view.Welcome"
+            id="view.Welcome"
+            name="New ViewPart">
+      </view>
+      <view
+            class="view.CreditCard"
+            id="view.CreditCard"
+            name="CreditCard View">
+      </view>
+   </extension>
+
+</plugin>
